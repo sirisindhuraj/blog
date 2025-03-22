@@ -9,7 +9,9 @@ const Article=require("../models/articleModel")
 
 //create new user
 console.log('hello',createUserOrAuthor)
-userApp.post("/user",expressAsyncHandler(createUserOrAuthor))
+userApp.post("/user",expressAsyncHandler(async(req,res)=>{
+   
+}))
 console.log('hello',createUserOrAuthor)
 //add comment
 userApp.put('/comment/:articleId',expressAsyncHandler(async(req,res)=>{

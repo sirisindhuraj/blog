@@ -118,9 +118,13 @@ function Home() {
               <input type="radio" name="role" id="author" value="author" className="form-check-input" onChange={onSelectRole} />
               <label htmlFor="author" className="form-check-label">Author</label>
             </div>
-            <div className="form-check">
+            <div className="form-check me-4">
               <input type="radio" name="role" id="user" value="user" className="form-check-input" onChange={onSelectRole} />
               <label htmlFor="user" className="form-check-label">User</label>
+            </div>
+            <div className="form-check me-4">
+              <input type="radio" name="role" id="admin" value="admin" className="form-check-input" onChange={onSelectRole} />
+              <label htmlFor="admin" className="form-check-label">Admin</label>
             </div>
           </div>
         </div>
